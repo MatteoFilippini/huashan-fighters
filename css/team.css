@@ -1,0 +1,39 @@
+.team #btn-team{
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding:0;
+    height: 120x;
+    margin-top:20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.jumbotron.team-page-jb{
+    background-image:url("../images/team.png");
+}
+
+.jumbotron.team-page-jb h1#team-page-h1{
+    font-size:38px;
+        font-weight: 600;
+        font-family: Oswald,sans-serif;
+}
+
+.team-page-jb h5{
+    max-width:600px;
+    text-align: center;
+}
+
+.coach-image{ 
+    height: 450px;
+    margin:0 auto;
+    width:90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    background-image: url('../images/coach.jpg');
+
+}
+
+ 
