@@ -5,8 +5,18 @@
     padding:0;
     height: 120x;
     margin-top:20px;
-    display: inline-block;
+    display:  block;
     width: 100%;
+}
+
+@media(min-width:768px){
+    .team #btn-team{ 
+           padding:30px 10px; 
+           margin-bottom: 150px;
+    }
+    .pric{
+        font-size: 1.7rem;
+    }
 }
 
 .jumbotron.team-page-jb{
@@ -25,15 +35,30 @@
 }
 
 .coach-image{ 
+    padding: 0 30px;
     height: 450px;
     margin:0 auto;
-    width:90%;
+    /* width:90%; */
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
     position: relative;
     background-image: url('../images/coach.jpg');
+ 
+}
 
+.coach-title{
+    margin:0 auto; 
+}
+
+tbody tr th{
+    font-weight: 400;
+}
+
+.price-sale{
+    background-color:rgb(187, 24, 24);
+    padding:10px;
+    text-transform: uppercase;
 }
 
  

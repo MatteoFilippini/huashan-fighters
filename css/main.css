@@ -1,5 +1,5 @@
 main{
-        background-color: #000;
+        background-color: rgb(8, 8, 8);
         color: #fff;
 }
 
@@ -24,6 +24,12 @@ main{
         font-family: Oswald,sans-serif;
 }
 
+@media(min-width:768px){
+        .jumbotron .index-page-h1{
+        font-size:88px;   
+        }
+}
+
 td.red{
         background-color:rgb(221, 59, 59) !important;     
 }
@@ -36,6 +42,12 @@ td.red{
 @media(min-width:768px){
         .carousel-item.active .card{ 
                width:30rem; 
+        }
+        .gym-img{
+                background-size: cover;
+        }
+        .gym-txt{
+                margin-bottom:0 !important;
         }
 }
 
@@ -58,8 +70,34 @@ td.red{
         font-weight:700;
 }
 
+.gym{
+        /* background-color:#85c1fb; */     
+}
+
+.gym-img{
+        background-image: url(../images/gym.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height:300px
+}
 
 
+.gym{
+        margin-top: 50px;
+        background-color: #fff;
+}
+.gym-txt{
+        /* background-color: #85c1fb; */
+        margin-bottom: 60px;
+        padding:30px
+}
+ 
+.gym-txt ul li{
+        list-style: none;
+        margin-bottom: 30px;
+        color: #009DE0
+}
 
 
 
